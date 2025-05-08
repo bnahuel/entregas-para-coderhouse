@@ -1,0 +1,39 @@
+$white: #fff;
+$primary: #007bff;
+$primary-hover: #0056b3;
+$background-light: #f8f9fa;
+$background-block: #f1f1f1;
+$gray-medium: #6c757d;
+$dark-color: #343a40;
+$text-color: #000;
+$border-color: #ccc;
+$radius: 6px;
+$radius-lg: 8px;
+$gap: 20px;
+$gap-lg: 40px;
+$radius: 8px;
+$shadow-light: 0 0 10px rgba(0, 0, 0, 0.2);
+$shadow-dark: 0 0 8px rgba(0, 0, 0, 0.3);
+$font-size-small: 1.8rem;
+$font-size-large: 3rem;
+$padding-large: 200px 20px;
+$padding-small: 60px 15px;
+$margin-section: 60px 0;
+$padding-section: 40px 20px;
+
+@mixin btn-primary {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: $primary;
+  color: $white;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $primary-hover;
+  }
+}
+
+@mixin text-center {
+  text-align: center;
+}

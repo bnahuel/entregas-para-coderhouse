@@ -4,184 +4,165 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sitio WEB</title>
-        <link rel="stylesheet" href="../css/styles.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="../css/estilos.css"/>
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="../img/avatar.webp" alt="marca" class="logo">
-                    </a>
+      <header class="bg-dark text-white py-3">
+        <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <img class="marca ms-3 ms-lg-0" src="../img/avatar.webp" alt="marca" style="height: 60px;">
 
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav gap-3">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/about.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/services.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/gallery.html">Galería</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/contact.html">Contacto</a></li>
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="./about.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="./services.html">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="./gallery.html">Galería</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="./contact.html">Contacto</a>
+                            </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
-        </header>
-        <main class="container my-5">
-            <section class="my-5">
-                <h2 class="text-center mb-4">Personajes principales</h2>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <div class="card shadow card-personaje">
-                            <img src="../img/d801d3af0843ceb2552db215e4559d21.jpg" class="card-img-top card-img-personaje" alt="Guts">
-                            <div class="card-body">
-                                <h5 class="card-title">Guts</h5>
-                                <p class="card-text">El Espadachín Negro, protagonista de Berserk, marcado por la tragedia y la lucha contra el destino.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow card-personaje">
-                            <img src="../img/28d64601b2ed93a0684d474ff59ee18f.jpg" class="card-img-top card-img-personaje" alt="Griffith">
-                            <div class="card-body">
-                                <h5 class="card-title">Griffith</h5>
-                                <p class="card-text">Líder de la Banda del Halcón, carismático y ambicioso, dispuesto a todo por alcanzar su sueño.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow card-personaje">
-                            <img src="../img/c382f513ae8464f65b9a9075af1ee5c5.jpg" class="card-img-top card-img-personaje" alt="Casca">
-                            <div class="card-body">
-                                <h5 class="card-title">Casca</h5>
-                                <p class="card-text">Valiente guerrera y miembro clave de la Banda del Halcón, con un destino tan trágico como fuerte.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-            <section class="my-5">
-                <div class="seccion-contenedor">
-                  <h2 class="text-center mb-4">Datos del Manga</h2>
-                  <table class="table table-bordered table-striped text-center">
-                    <thead class="table-dark">
-                      <tr>
-                        <th>Título</th>
-                        <th>Autor</th>
-                        <th>Año de inicio</th>
-                        <th>Estado</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Berserk</td>
-                        <td>Kentaro Miura</td>
-                        <td>1989</td>
-                        <td>En publicación</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </section>
-              
-              <section class="my-5">
-                <div class="seccion-contenedor">
-                  <h2 class="text-center mb-4">Testimonios</h2>
-                  <div class="row g-4">
-                    <div class="col-md-6">
-                      <div class="card shadow h-100 card-testimonio">
-                        <div class="card-body">
-                          <p class="card-text">"Una historia oscura y envolvente que me atrapó desde el primer tomo. Berserk es una obra maestra."</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="card shadow h-100 card-testimonio">
-                        <div class="card-body">
-                          <p class="card-text">"La narrativa y el arte son inigualables. Cada personaje está tan bien construido que parecen reales."</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </section>
-              
-            <section class="my-5">
-                <div class="seccion-contenedor">
-                    <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
-                    <div class="faq-container">
-                        <div class="mb-4 p-3 border rounded bg-light faq-item">
-                            <h5 class="fw-bold">¿Dónde puedo leer Berserk?</h5>
-                            <p>Puedes leerlo en plataformas oficiales de manga o adquirir los tomos físicos en librerías especializadas.</p>
-                        </div>
-                        <div class="mb-4 p-3 border rounded bg-light faq-item">
-                            <h5 class="fw-bold">¿Está finalizado el manga?</h5>
-                            <p>No, el manga continúa luego del fallecimiento de Miura, bajo la supervisión de su equipo cercano.</p>
-                        </div>
-                        <div class="mb-4 p-3 border rounded bg-light faq-item">
-                            <h5 class="fw-bold">¿Dónde puedo leer Berserk?</h5>
-                            <p>Puedes leerlo en plataformas oficiales de manga o adquirir los tomos físicos en librerías especializadas.</p>
-                        </div>
-                        <div class="mb-4 p-3 border rounded bg-light faq-item">
-                            <h5 class="fw-bold">¿Está finalizado el manga?</h5>
-                            <p>No, el manga continúa luego del fallecimiento de Miura, bajo la supervisión de su equipo cercano.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <section class="jumbotron">
+      <h1>Inspiracion de Hidetaka Miyazaki</h1>
+    </section>
 
-            <section class="gallery-section my-5">
-                <div class="seccion-contenedor">
-                  <h2>Galería de Imágenes</h2>
-                  <div class="row g-4">
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 1">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 2">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 3">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 4">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 5">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 6">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 7">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 8">
-                    </div>
-                    <div class="col-md-4">
-                      <img src="../img/shinbross-giulio-sciaccaluga-elden-low.jpg" class="gallery-img" alt="Imagen 9">
-                    </div>
-                  </div>
-                </div>
-              </section>
-              
-            <section class="ubicacion-section my-5">
-                <div class="seccion-contenedor">
-                  <h2>Ubicación</h2>
-                  <div class="ratio ratio-16x9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093746!2d144.96305791531693!3d-37.81362797975157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5770174c7c8ec5!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1633079703683!5m2!1sen!2sau"
-                      style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                  </div>
-                </div>
-            </section>
-        </main>
+    <main class="container my-5">
+      <section class="my-5">
+        <h2 class="titulo-seccion">Personajes principales</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="personaje-card">
+              <img src="../img/d801d3af0843ceb2552db215e4559d21.jpg" alt="Guts" class="personaje-img">
+              <div class="personaje-body">
+                <h3>Guts</h3>
+                <p>El Espadachín Negro, protagonista de Berserk, marcado por la tragedia y la lucha contra el destino.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="personaje-card">
+              <img src="../img/28d64601b2ed93a0684d474ff59ee18f.jpg" alt="Griffith" class="personaje-img">
+              <div class="personaje-body">
+                <h3>Griffith</h3>
+                <p>Líder de la Banda del Halcón, carismático y ambicioso, dispuesto a todo por alcanzar su sueño.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="personaje-card">
+              <img src="../img/c382f513ae8464f65b9a9075af1ee5c5.jpg" alt="Guts" class="personaje-img">
+              <div class="personaje-body">
+                <h3>Casca</h3>
+                <p>Casca es una figura importante en la vida de Guts, con quien tiene una compleja relación. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="my-5">
+        <h2 class="titulo-seccion">Testimonios</h2>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="testimonio-card">
+              <p>"Una historia oscura y envolvente que me atrapó desde el primer tomo. Berserk es una obra maestra."</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="testimonio-card">
+              <p>"La narrativa y el arte son inigualables. Cada personaje está tan bien construido que parecen reales."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="my-5">
+        <h2 class="titulo-seccion">Preguntas Frecuentes</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <h5>¿Dónde puedo leer Berserk?</h5>
+            <p>Puedes leerlo en plataformas oficiales de manga o adquirir los tomos físicos en librerías especializadas.</p>
+          </div>
+          <div class="faq-item">
+            <h5>¿Está finalizado el manga?</h5>
+            <p>No, el manga continúa luego del fallecimiento de Miura, bajo la supervisión de su equipo cercano.</p>
+          </div>
+          <div class="faq-item">
+            <h5>¿Cuál es la relación entre la Bestia de la Oscuridad y la Armadura Berserk?</h5>
+            <p>La armadura es un objeto mágico que suprime el dolor y el miedo, potenciando el instinto de lucha del usuario.</p>
+          </div>
+          <div class="faq-item">
+            <h5>¿Cuáles son las influencias de Berserk?</h5>
+            <p>Miura se inspiró en obras como Hellraiser, Star Wars, Devilman y otras. </p>
+          </div>
+        </div>
+      </section>
+    
+      <section class="my-5">
+        <h2 class="titulo-seccion">Galería de Imágenes</h2>
+        <div class="row g-4">
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/1366_2000.jpeg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/df43ine-d3d5e283-bbaf-444b-9812-7923644660bf.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/6cc39bee11e0d8cc083c05b0c9488468.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/hr5ex4l9zlvb1.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/i-colored-our-favourite-witch-in-training-and-ivalera-v0-vux1omx69f3e1.png" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/64756492a33e7af6146ee9b188592fc7.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/Pippin_Manga.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/thumb-1920-655977.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+          <div class="col-md-4" style="margin-bottom: 15px;">
+            <img src="../img/4212ba17d0504fd14e7b3a11cb849255.jpg" class="gallery-img" alt="Imagen 1">
+          </div>
+        </div>
+      </section>
+    
+      <section class="ubicacion-section">
+        <h2>Ubicación</h2>
+        <div class="mapa-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </section>
+    </main>
 
-        <footer class="bg-dark text-white text-center py-4 mt-5">
-            <p>&copy; 2025 Sitio WEB. Todos los derechos reservados.</p>
-        </footer>
+      <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2025 Sitio WEB. Todos los derechos reservados.</p>
+      </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

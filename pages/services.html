@@ -4,114 +4,94 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sitio WEB</title>
-        <link rel="stylesheet" href="../css/styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="../css/estilos.css">
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="../img/avatar.webp" alt="marca" class="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav gap-3">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/about.html">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/services.html">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/gallery.html">Galería</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/contact.html">Contacto</a></li>
-                        </ul>
-                    </div>
+        <header class="bg-dark text-white py-3">
+            <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img class="marca ms-3 ms-lg-0" src="../img/avatar.webp" alt="marca" style="height: 60px;">
+    
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="./about.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="./services.html">Servicios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="./gallery.html">Galería</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="./contact.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </nav>
+            </div>
         </header>
 
-        <main class="container my-5">
+        <section class="jumbotron">
+            <h1>DLC Elden Ring</h1>
+        </section>
 
-            <section class="services-section my-5">
-                <div>
-                    <h2 class="text-center mb-4">Nuestros Servicios</h2>
-                    <p class="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus facere adipisci est sapiente sint dolor incidunt, fugiat architecto nihil odit, nulla provident assumenda obcaecati inventore eum. Ad voluptas aut cumque!</p>
-                
-                    <div class="row align-items-center mb-5">
-                        <div class="col-md-6">
-                            <img src="../img/98c6e19cb1e5f1b224e3296ab5563935.jpg" alt="Imagen 1" class="img-fluid rounded service-img">
-                        </div>
-                        <div class="col-md-6">
-                            <h2 class="mb-3">SERVICIO UNICO</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque doloremque error nesciunt, reprehenderit placeat distinctio magnam deleniti necessitatibus. A illo in quos incidunt quis nulla nesciunt nemo veritatis. Quasi, sunt!</p>
-                        </div>
+        <main class="main">
+
+            <section class="services-section">
+                <div class="row service-row">
+                    <div class="col-md-6">
+                        <img src="../img/98c6e19cb1e5f1b224e3296ab5563935.jpg" alt="Imagen 1" class="service-img">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="service-title">Shadow of the Erdtree</h2>
+                        <p>El Reino de las Sombras es un puzle que pone a prueba todo lo que has aprendido jugando a Elden Ring e incluso a otros proyectos del estudio. Desde la zona inicial puedes ver que están más o menos a tu alcance el resto de los territorios, pero al mismo tiempo no. Te labras el camino explorando, pensando de qué manera las dimensiones pueden encajar para que el camino esté detrás de una mazmorra opcional o un muro invisible.</p>
                     </div>
                 </div>
             </section>
-              
-            <section class="details-section my-5">
-                <div>
-                    <div class="text-center mb-5">
-                        <h2 class="mb-4">Servicio</h2>
+        
+            <section class="details-section">
+                <div class="details-wrapper">
+                    <div class="details-header">
+                        <h2>Análisis DLC Elden Ring: Shadow of the Erdtree, la nueva obra maestra de una From Software que no tiene rival</h2>
                     </div>
-                
-                    <div class="row text-center mb-4">
-                        <div class="col-md-6">
-                            <h2 class="sub-title">Elden Ring</h2>
-                        </div>
-                        <div class="col-md-6">
-                            <h2 class="sub-title">Shadows of the Erdtree</h2>
-                        </div>
-                    </div>
-                
-                    <div class="row text-center">
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut velit quaerat error. Dolorum sit consequatur obcaecati aut laboriosam blanditiis, optio recusandae ducimus dolorem unde soluta, dicta deserunt error totam. Eaque?</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perferendis, veritatis aliquid reprehenderit ducimus corrupti fuga eos consequatur dolore magnam repudiandae? Iure magnam suscipit labore voluptas eum culpa ex rem?</p>
-                        </div>
-                    </div>
-
-                    <div class="text-center mb-5">
-                        <h2 class="mb-4">Que incluye el DLC</h2>
-                    </div>
-                
-                    <div class="row text-center mb-4">
-                        <div class="col-md-6">
-                            <h2 class="sub-title">Bosses</h2>
-                        </div>
-                        <div class="col-md-6">
-                            <h2 class="sub-title">Weapons</h2>
-                        </div>
-                    </div>
-                
+        
                     <div class="row">
                         <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt blanditiis veniam excepturi deserunt! Culpa ex, unde autem pariatur esse quae voluptatem dolore, perferendis accusantium aperiam voluptas earum asperiores. Eos, consectetur?</p>
+                            <p>Lo ha vuelto a hacer. No tuvo suficiente con causar un terremoto en 2022. No. Hidetaka Miyazaki y su equipo han elevado la leyenda de Elden Ring con una expansión que se coloca entre los mejores contenidos adicionales jamás publicados. No solo hablamos de que continúa la línea del primer gran mundo abierto de From Software, sino también de una suerte de campo de pruebas sobre la que construir lo que está por venir en el futuro. Es épico, desafiante, rebosa empaque y está repleto de secretos que tiran de guiños a la trayectoria que los ha llevado a este punto.</p>
                         </div>
                         <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt blanditiis veniam excepturi deserunt! Culpa ex, unde autem pariatur esse quae voluptatem dolore, perferendis accusantium aperiam voluptas earum asperiores. Eos, consectetur?</p>
+                            <p>Por las casi cuarenta horas que pasamos por Shadow of the Erdtree nos hemos visto por todo tipo de estados. Desde el primer momento que pisas el Reino de las Sombras, cuando te das cuenta que el arte promocional se ha convertido en videojuego, hasta la frustración de un par de jefes que te llevan a pensar que tras más de una década superando obstáculos es hora de hincar la rodilla. Pero llega ese intento y superas lo que parecía imposible. Llueve la magia, y con ello algunos de los mejores momentos que se recuerdan en los juegos liderados bajo la batuta del creativo.</p>
                         </div>
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt blanditiis veniam excepturi deserunt! Culpa ex, unde autem pariatur esse quae voluptatem dolore, perferendis accusantium aperiam voluptas earum asperiores. Eos, consectetur?</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt blanditiis veniam excepturi deserunt! Culpa ex, unde autem pariatur esse quae voluptatem dolore, perferendis accusantium aperiam voluptas earum asperiores. Eos, consectetur?</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt blanditiis veniam excepturi deserunt! Culpa ex, unde autem pariatur esse quae voluptatem dolore, perferendis accusantium aperiam voluptas earum asperiores. Eos, consectetur?</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt blanditiis veniam excepturi deserunt! Culpa ex, unde autem pariatur esse quae voluptatem dolore, perferendis accusantium aperiam voluptas earum asperiores. Eos, consectetur?</p>
-                        </div>
-                    </div>                   
+                    </div>
+        
+                    <div class="details-header">
+                        <h2>Que incluye el DLC</h2>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-md-6"><p>8 nuevos tipos de armas, entre las que encontramos diversas espadas, armas cuerpo a cuerpo, armas arrojadizas, armas de magia y encantamientos.</p></div>
+                        <div class="col-md-6"><p>10 nuevos jefes principales, decenas de jefes intermedios y múltiples enemigos de élite.</p></div>
+                        <div class="col-md-6"><p>Nuevos personajes secundarios: la mayoría se presentarán como seguidores de Miquella, y cada uno contará con su propia serie de misiones secundarias.</p></div>
+                        <div class="col-md-6"><p>En total, Shadow of the Erdtree ofrecerá entre 50 y 60 horas de juego para aquellos que busquen terminar el DLC al 100%.</p></div>
+                        <div class="col-md-6"><p>Un nuevo mapa semejante a Limgrave en extensión. Esta área es conocida como la Tierra de las Sombras y posee la cualidad de desplegarse verticalmente, muy al estilo del primer Dark Souls.</p></div>
+                        <div class="col-md-6"><p>Shadow of the Erdtree edition: se trata de la versión más barata del DLC. Posee todo el contenido de Shadow of the Erdtree, y solo se podrá obtener de manera digital.</p></div>
+                    </div>
                 </div>
             </section>
-
-           
+        
         </main>
+
         <footer class="bg-dark text-white text-center py-4 mt-5">
             <p>&copy; 2025 Sitio WEB. Todos los derechos reservados.</p>
         </footer>

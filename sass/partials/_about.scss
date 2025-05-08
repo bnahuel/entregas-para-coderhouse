@@ -1,0 +1,32 @@
+.seccion-fila {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.columna {
+  flex: 1;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: $radius-lg;
+  }
+}
+
+.centro {
+  @include text-center;
+}
+
+.seccion {
+  margin: 40px 0;
+}
+
+.imagenes {
+  .columna {
+    @include text-center;
+  }
+}

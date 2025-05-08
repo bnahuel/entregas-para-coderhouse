@@ -1,0 +1,128 @@
+.jumbotron {
+  background-image: url('../img/elden-ring-nightreign-4k-key-art-without-logo-wallpaper-v0-iba4lotwcj6e1.webp');
+  background-size: cover;
+  background-position: center;
+  color: $white;
+  text-align: center;
+  padding: $padding-large;
+
+  h1 {
+    animation: efecto 4s ease-in-out infinite;
+    font-size: $font-size-large;
+    margin: 0;
+  }
+}
+
+@keyframes efecto {
+  0% {
+    transform: translateY(0);
+    color: $white;
+    opacity: 0.5;
+  }
+  25% {
+    transform: translateY(-10px);
+    color: #ffcc00;
+    opacity: 0.75;
+  }
+  50% {
+    transform: translateY(0);
+    color: #00ffff;
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(10px);
+    color: #ff66cc;
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(0);
+    color: $white;
+    opacity: 0.5;
+  }
+}
+
+.main-section {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: $padding-section;
+}
+
+.seccion-info {
+  display: flex;
+  gap: 30px;
+  margin: $margin-section;
+  flex-wrap: wrap;
+
+  .texto-info,
+  .imagen-info {
+    flex: 1 1 50%;
+  }
+
+  .imagen-info {
+    img {
+      width: 100%;
+      border-radius: $radius;
+      box-shadow: $shadow-light;
+    }
+  }
+}
+
+.form-contact {
+  margin: $margin-section;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .campo {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+
+    &.campo-textarea {
+      flex: 1 1 100%;
+    }
+
+    input,
+    textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid $border-color;
+      border-radius: 5px;
+    }
+
+    button {
+      @include btn-primary;
+    }
+  }
+}
+
+.caballeros-section {
+  text-align: center;
+  margin: $margin-section;
+}
+
+.caballeros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+
+  .caballero {
+    img {
+      width: 100%;
+      height: 500px;
+      border-radius: $radius;
+      box-shadow: $shadow-dark;
+    }
+  }
+}
+
+.ubicacion-section {
+  iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+}

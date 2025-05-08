@@ -1,0 +1,40 @@
+.main {
+  max-width: 1080px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.services-header,
+.details-header {
+  @include text-center;
+  margin-bottom: 40px;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+}
+
+.service-row {
+  margin-bottom: 50px;
+}
+
+.service-img {
+  width: 100%;
+  border-radius: $radius-lg;
+}
+
+.service-title {
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  margin-bottom: 10px;
+  @include text-center;
+}
+
+.details-wrapper {
+  p {
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,406 @@
+.jumbotron {
+  background-image: url("../img/elden-ring-nightreign-4k-key-art-without-logo-wallpaper-v0-iba4lotwcj6e1.webp");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 200px 20px;
+}
+.jumbotron h1 {
+  animation: efecto 4s ease-in-out infinite;
+  font-size: 3rem;
+  margin: 0;
+}
+
+@keyframes efecto {
+  0% {
+    transform: translateY(0);
+    color: #fff;
+    opacity: 0.5;
+  }
+  25% {
+    transform: translateY(-10px);
+    color: #ffcc00;
+    opacity: 0.75;
+  }
+  50% {
+    transform: translateY(0);
+    color: #00ffff;
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(10px);
+    color: #ff66cc;
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(0);
+    color: #fff;
+    opacity: 0.5;
+  }
+}
+.main-section {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.seccion-info {
+  display: flex;
+  gap: 30px;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+.seccion-info .texto-info,
+.seccion-info .imagen-info {
+  flex: 1 1 50%;
+}
+.seccion-info .imagen-info img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-contact {
+  margin: 60px 0;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.formulario-contacto .campo {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+.formulario-contacto .campo.campo-textarea {
+  flex: 1 1 100%;
+}
+.formulario-contacto .campo input,
+.formulario-contacto .campo textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.formulario-contacto .campo button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.formulario-contacto .campo button:hover {
+  background-color: #0056b3;
+}
+
+.caballeros-section {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.caballeros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+.caballeros-grid .caballero img {
+  width: 100%;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.ubicacion-section iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+.seccion-contenedor {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.titulo-seccion {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.parrafo {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.form-contact {
+  background-color: #f8f9fa;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+.form-contact .formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.form-contact .formulario .form-columna,
+.form-contact .formulario .form-area {
+  display: flex;
+  flex-direction: column;
+}
+.form-contact .formulario .form-columna .form-label,
+.form-contact .formulario .form-area .form-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.form-contact .formulario .form-columna .form-input,
+.form-contact .formulario .form-area .form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.form-contact .formulario .text-center {
+  grid-column: 1/-1;
+}
+.form-contact .boton-primario {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.form-contact .boton-primario:hover {
+  background-color: #0056b3;
+}
+
+.main {
+  max-width: 1080px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.services-header,
+.details-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.services-header h2,
+.details-header h2 {
+  margin-bottom: 15px;
+}
+
+.service-row {
+  margin-bottom: 50px;
+}
+
+.service-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.service-title {
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.details-wrapper p {
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.titulo-seccion {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.personaje-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.personaje-img {
+  width: 100%;
+  height: auto;
+}
+
+.personaje-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.testimonio-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-left: 5px solid #6c757d;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  background: #f1f1f1;
+  padding: 20px;
+  border-left: 4px solid #6c757d;
+  border-radius: 8px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+.seccion-fila {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.columna {
+  flex: 1;
+}
+.columna img {
+  width: 100%;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.centro {
+  text-align: center;
+}
+
+.seccion {
+  margin: 40px 0;
+}
+
+.imagenes .columna {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .seccion-info {
+    flex-direction: column;
+  }
+  .seccion-info .texto-info,
+  .seccion-info .imagen-info {
+    flex: 1 1 100%;
+  }
+  .formulario-contacto {
+    flex-direction: column;
+  }
+  .formulario-contacto .campo {
+    flex: 1 1 100%;
+  }
+  .caballeros-grid {
+    grid-template-columns: 1fr;
+  }
+  .caballeros-grid .caballero img {
+    height: auto;
+  }
+  .jumbotron {
+    padding: 60px 15px;
+  }
+  .jumbotron h1 {
+    font-size: 1.8rem;
+  }
+  .main-section {
+    padding: 20px 15px;
+  }
+  .form-contact {
+    margin: 40px 0;
+  }
+  .caballeros-section {
+    margin: 40px 0;
+  }
+}
+@media (min-width: 768px) {
+  .form-contact .formulario {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .form-contact .formulario .form-area,
+  .form-contact .formulario .text-center {
+    grid-column: 1/-1;
+  }
+}
+.info-columns .info-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.info-columns .info-contenedor .info-bloque {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.ubicacion-section {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .service-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .service-title,
+  .sub-title {
+    text-align: center;
+  }
+  .details-wrapper p {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .personaje-body h3 {
+    font-size: 1.2rem;
+  }
+  .titulo-seccion {
+    font-size: 1.5rem;
+  }
+  .faq-item,
+  .testimonio-card {
+    font-size: 0.95rem;
+    padding: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .seccion-fila {
+    flex-direction: column;
+  }
+  .columna {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
